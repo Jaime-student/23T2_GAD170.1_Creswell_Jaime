@@ -18,10 +18,12 @@ public class PlayerCharacter : MonoBehaviour
         health = 100;
         level =    1;
     }
-
-    // Update is called once per frame
+    // add a level
     private void Update()
+    
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        Debug.Log("Jaime has hit the spacebar, good on him");
+        level++;
     }
 }
