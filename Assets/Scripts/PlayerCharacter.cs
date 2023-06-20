@@ -18,12 +18,13 @@ public class PlayerCharacter : MonoBehaviour
         health = 100;
         level =    1;
     }
+    
     // add a level
     private void Update()
-    
     {
         if (Input.GetKeyDown(KeyCode.Space))
-        Debug.Log("Jaime has hit the spacebar, good on him");
-        level++;
+        Debug.Log("Your name is gabe and you've started this journey in this dungeon, kill enemys and climb to level 5 to win. An enemy appears infront of you, attack it!");
     }
+    
+    
 }
