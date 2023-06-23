@@ -340,7 +340,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce34fe18b10c1324dadee70e634b5574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  enemyHealth: 100
+  playerAttack: -14
+  randomInteger: 0
+  randomIntegerXp: 0
 --- !u!114 &1093103803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,9 +356,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4f99a19450ffb24089abbedcf4e6b62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attack: 10
-  health: 100
   level: 1
+  xp: 0
 --- !u!114 &1093103804
 MonoBehaviour:
   m_ObjectHideFlags: 0
