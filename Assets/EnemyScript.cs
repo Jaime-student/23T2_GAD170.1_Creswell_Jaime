@@ -16,6 +16,7 @@ public class EnemyScript : MonoBehaviour
     public int randomIntegerXp;
 
     
+    
     private void Start()
     {
         Debug.Log("An enemy has appeared, attack to gain xp!");
